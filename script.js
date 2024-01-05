@@ -13,3 +13,15 @@ window.addEventListener("scroll", () => {
   gateleft.style.left = value * 0.5 + "px";
   gateRight.style.right = value * 0.5 + "px";
 });
+
+function myPlay() {
+  var audio = new Audio(
+    "./mp3/harry potter theme bgm ringtone  DOWNLOAD LINK.mp3"
+  );
+
+  setInterval(() => {
+    audio.play();
+  }, 1000);
+}
+
+myPlay();
